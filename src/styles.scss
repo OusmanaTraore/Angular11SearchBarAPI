@@ -11,3 +11,8 @@ body *{
     padding:0;
     box-sizing: border-box;
 }
+
+mat-option,
+mat-label {
+    text-transform: capitalize;
+}

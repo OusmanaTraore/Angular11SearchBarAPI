@@ -1,1 +1,18 @@
-<p>home works!</p>
+<div class="filter">
+    <mat-form-field>
+        <mat-label>sort</mat-label>
+        <mat-select
+        panelClass="sort-select"
+        [(ngModel)]="sort"
+        >
+        <mat-option value="name">name</mat-option>
+        <mat-option value="released">released</mat-option>
+        <mat-option value="added">added</mat-option>
+        <mat-option value="created">created</mat-option>
+        <mat-option value="updated">updated</mat-option>
+        <mat-option value="rating">rating</mat-option>
+        <mat-option value="metacritic">metacritic</mat-option>
+
+        </mat-select>
+    </mat-form-field>
+</div>
